@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=PT+Sans); /* Fonte PT Sans */
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web); /* Fonte Titillium Web */
+
+/* Formataçao do Cabeçalho */
+header#cabecalho {
+    border-bottom: 2px #E81300 solid;
+    height: 100px;
+    width: 940px;
+}
+
+header#cabecalho h1 {
+    text-align: left;
+    font-family: 'Titillium Web';
+}
+
+/* Formataçao simples do corpo */
+body {
+    background-image: url("../imagens/background.jpg");
+    font-family: 'Open Sans', "Arial", "Helvetica", sans-serif;
+    color: #030005;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    width: 940px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Formataçao simples do paragrafo */
+p {
+    font-family: 'Open Sans', 'PT Sans', "Helvetica", sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 20px auto;
+    padding: 0 45px;
+}
+
+/* Formataçao simples dos links */
+a {
+    color: #fe9380;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #fe5e41;
+    text-decoration: underline; /*insere uma linha sob o link*/
+    text-shadow: none; /*retira a sombra da fonte*/
+}
+
+/* Formataçao do menu*/
+nav#menu {
+    text-align: right;
+    width: 90%;
+    max-width: 980px;
+    margin: 20px auto;
+}
+
+nav#menu ul {
+    list-style-type: none;
+}
+
+nav#menu li {
+    display: inline;
+}
+
+/* Formataçao simples de links de dentro do menu */
+nav#menu a {
+    color: #E81300;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Formataçao do rodape */
+footer#rodape {
+    text-align: center;
+    border-top: 2px #E81300 solid;
+    margin: 10px 0;
+    padding: 10px 0;
+    height: 10px;
+    width: 940px;
+}
+
+footer#rodape p {
+    text-align: center;
+}
