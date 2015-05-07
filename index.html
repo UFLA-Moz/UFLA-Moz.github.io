@@ -11,13 +11,18 @@
         <!-- CSS sheets -->
         <link rel="stylesheet" type="text/css" href="assets/style.css" />
 
+        <!-- JS call -->
+        <script src="assets/javascript.js"></script>
+
     </head>
 
-    <body>
+    <body onload="relogio()">
         <div id="interface">
             <header id="cabecalho">
                 <h1>UflaMoz</h1>
                 <nav id="menu">
+                    <!-- Relógio -->
+                    <div id="relogio"></div>
                     <!-- Menu de navegação -->
                     <ul>
                         <li><a href="#projetos">Projetos</a>
